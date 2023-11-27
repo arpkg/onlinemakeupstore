@@ -1,0 +1,84 @@
+
+h2{
+    font-size:large;
+    text-align: center;
+    color:black ;
+}
+
+ #login{
+
+ display:grid; 
+ justify-content: center;
+ align-items: center;
+background-color: white;
+background-position: center;
+}
+
+
+.log{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8rem;
+    padding: 20px;
+    text-decoration: underline;
+    font-weight: normal;
+    margin-left: 270px;
+}
+
+.formbox{
+    margin-top: 25px;
+     position: relative;  
+    width: 800px;
+    height: 450px;
+background-color: #ffd1dc;
+/* border: 2px solid (255,255,255,255); */
+display: flex; 
+justify-content: center;
+align-items: center;
+}
+
+.inputbox{
+position:relative;
+font-size: medium;
+
+}
+
+/* .inputbox label{
+    width:auto;
+    height: 50px;
+    border: none;
+    } */
+
+    .inputbox input{
+        width: auto;
+        height:50%;
+        outline-color: black;
+        font-size: medium;
+        padding: 0 35% 0 5px;
+        color: black;
+    }
+
+    button{
+        width:100%;
+        height:40px;
+        background-color:black;
+        border:black;
+        font-size: medium;
+        color:white;
+ }
+
+  .create{
+    color:black;
+    text-align: center;
+    margin:25px 0 10px;
+} 
+
+.create p a{
+    text-decoration: none;
+    color:black;
+}
+
+.forget a{
+    color:black;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Page | MyOnlineMakeupStore.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkout.css">
+   
+</head>
+<body>
+    <header>
+    <div id="check">
+        <button onclick="goBack()"> &#8592; Back</button>
+         <h1>CHECKOUT</h1>
+    </div>
+    </header><hr>
+ <section id="checkout">
+        
+<div class="formbox"> 
+    <hr><h2>1. Contact</h2><br>
+           <div class="inputbox1">
+                <input type="text" name="fullname" placeholder="Your Full Name"><br><br>
+                <input type="text" name="number" placeholder="Your Phone Number"><br><br>
+                <input type="text" name="address" placeholder="Your Address"><br><br><br><hr>
+           </div>
+    <h2>2. Payment Method</h2><br>
+           <div class="inputbox2">
+                <input type="radio" id="cash" value="COD">  
+                <label for="cash">Cash On Delivery</label>
+           </div><hr>
+
+</div>
+
+
+
+<div class="continue">
+    <button id="order">PLACE ORDER</button>
+</div>
+
+</section>
+<script>
+    function goBack() {
+        // Use the history object to go back to the previous page
+        window.history.back();
+    }
+</script>
+</body>
+</html>

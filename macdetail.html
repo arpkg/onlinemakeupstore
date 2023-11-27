@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Page | MyOnlineMakeupStore.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="macdetails.css">
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <header>
+        <div id="top_nav">
+            <nav id="nav1">
+                <input type="text" id="search" name="search" placeholder="Search"/>
+                <div id="logo1">
+                    <img src="search.png" alt="searchicon">
+                </div>
+                <div id="logo1">
+                  <a href="login.html"> <img src="user.png" alt="usericon" id="usericon"></a>
+                     
+                </div>
+                <div id="logo1" >
+                    <img src="cart.png" alt="carticon" class="cart-icon"> </a>
+                </div>
+                    <!--cart-->
+                    <div class="cart">
+                        <h2 class="cart-title">Your Cart</h2>
+                        <!--Content-->
+                        <div class="cart-content">
+
+                          
+                        </div>
+                        <!--total-->
+                        <div class="total">
+                            <div class="total-title">Total</div>
+                            <div class="total-price">RS 0</div>
+                        </div>
+             <!--Buy Button-->
+                        <button class="btn-buy">Place Order</button>
+                        <!-- Cart Close-->
+                        <button class="close-cart">Close Cart</button>
+                    </div>
+                
+            </nav>
+        </div>
+
+        <div id="bottom_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="makeup.html">Makeup</a></li>
+                <li><a href="skincare.html">Skincare</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+<section id="macdetails">
+    <div class="box" id="details">
+        <div class="imgbox">
+          <img src="mp3.jpg" alt="fitme" class="product-img">
+        </div>
+        
+         <h2 class="product-title">Born This Way Flawless Foundation</h2><br>
+         <span class="price">RS 3500</span>
+         <button class="add-cart">Add to cart</button>
+        
+    </div> 
+    <div class="detail">
+        <h4>Product Details</h4><br><hr>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum officia quisquam porro ab iure magni tempore, laudantium quas molestiae deleniti expedita voluptas nobis, doloribus, quis exercitationem tenetur repudiandae animi ullam. Repellat ut ab, inventore omnis assumenda tempora officiis blanditiis officia?</span>
+        <div id="review">
+            <h4>Reviews</h4>
+            
+           <button id="openModalBtn" class="normal">Write a review</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h1>Your Reviews</h1><br><br>
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                    </div><br>
+                    
+                        <div class="inputbox">
+                            <!-- <input type="email" name="email" placeholder="Your Email"><br><br> -->
+                            <textarea name="review" id="" cols="50" rows="15" placeholder="Your Review"></textarea>
+                        </div>
+                              <button id="subreview">SUBMIT</button>
+                </div>
+            </div>
+           
+    </div>
+</section>
+<script src="review.js"></script>
+<script src="detail.js"></script>
+<script src="a.js"></script>
+
+
+<footer>
+    <section id="footer">
+        <div id="footer1">
+            <div id="quick_links">
+                <h3>Quick Links</h3><br>
+                <ul>
+                   <a href="index.html"> <li>Home</li></a>
+                    <a href="makeup.html"> <li>Makeup</li></a>
+                    <a href="skincare.html"> <li>Skincare</li></a>
+                    <a href="about.html"> <li>About</li></a>
+                    <a href="contact.html"> <li>Contact</li></a>
+                </ul>
+            </div>
+            <div id="contact_us">
+                <h3>Contact Us</h3><br>
+                <div id="call">
+                    <img src="phone.png" alt="phone">
+                    <p>000-000-000</p>
+                </div>
+                <div id="location">
+                    <img src="location.png" alt="location">
+                    <p>Gaindakot, Chitwan</p>
+                </div>
+            </div>
+            <div id="social_links">
+                <h3>Social Links</h3><br>
+                <div class="socials">
+                    <a href="https://www.facebook.com" target="_blank"><img src="facebook (1).png" alt="facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="instagram.png" alt="instagram"></a>
+                    <a href="https://www.whatsapp.com" target="_blank"><img src="whatsapp.png" alt="whatsapp"></a>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    
+    </footer>

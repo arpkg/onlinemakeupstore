@@ -1,0 +1,143 @@
+/* Single Product */
+#macdetails{
+    display: flex;
+    margin-top: 80px;
+    padding: 20px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+ /* #details img{
+    width: 30%;
+    margin-right: 50px;
+    height: 30%;
+}
+#details{
+    width: 40%;
+    padding: 20px;
+    justify-content: center;
+} */
+#details .box {
+    padding: 5px;
+    margin: 2px 8px;
+    margin-bottom: 20px;
+    display: block;
+} 
+
+ #details .imgbox img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 165px;
+    width: 60%;
+} 
+
+
+
+#macdetails .detail {
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+#macdetails .detail h2{
+    padding: 10px 0 30px 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+#macdetails .detail h4{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    
+}
+
+
+#macdetails .detail .normal{
+    background: #FFD1DC;
+    color: black;
+    border: #ffd1dc;
+    height: 50px;
+    width: 40%;
+    margin-top: 30px;
+}
+#macdetails .detail span{
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#review{
+    display: flex;
+}
+#review button{
+margin-left: 300px;
+
+}
+
+        /*close*/
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: 7% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 40%;
+            height: 75%;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            margin-left: 450px;
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        /* star review*/
+                .star {
+                    color: #fff;
+                    font-size: 50px;
+                    color: #ffb700;
+                    cursor: pointer;
+                }
+        
+                .star:hover ~ .star {
+                    color: #ffb700;
+                }
+        
+                .star:before {
+                    content: "\2605";
+                }
+        
+                .star:hover:before,
+                .star:hover ~ .star:before {
+                    content: "\2606";
+                }
+                .modal-content #subreview{
+                    background: #FFD1DC;
+                    color: black;
+                    border: #ffd1dc;
+                    height: 50px;
+                    width: 40%;
+                    margin-top: 30px;
+                    margin-left: 50px;
+                    
+                }
+

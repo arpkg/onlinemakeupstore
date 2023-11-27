@@ -1,0 +1,71 @@
+
+.continue{
+    margin-top: 30x;
+    display: grid;
+    margin-left: 250px;
+}
+.continue button{
+    cursor: pointer;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: #FFD1DC;
+    color: black;
+    font-size: 20px;
+    border: 2px solid  #FFD1DC;
+    border-radius: 40px;
+}
+.continue button:hover{
+
+    background-color: #FFff;
+    color: #FFD1DC;
+    border: 2px solid  #FFD1DC;
+}
+/* checkout page css*/
+#check{
+    background-color: #FFD1DC;
+    display: flex;
+    height: 100px;
+    top: 0;
+    left: 0;
+    justify-content: center;
+}
+#check button{
+  margin-top: 50px;
+  font-weight: bold;
+  margin-right: 500px;
+  background-color: #FFD1DC;
+  border: 2px solid #FFD1DC;
+  border-radius: 30px;
+  width: 70px;
+  cursor: pointer;
+}
+#check h1{
+  margin-top: 50px;
+  font-weight: bold;
+ padding-right: 500px;
+}
+#checkout{
+    padding: 40px;
+    width: 80%;
+    height: 300px;
+}
+.formbox{
+    justify-content: center;
+    margin-left: 500px;
+    display: grid;
+   
+}
+.formbox h2{
+ 
+    margin-top: 30px;
+   
+}
+.inputbox1 input{
+    height: 30px;
+    width:380px;
+}
+#order{
+    margin-left: 380px;
+    margin-top: 50px;
+} 
